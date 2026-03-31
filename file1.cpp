@@ -29,7 +29,19 @@ int main(){
         x = rand ()%10;
     }while(x<=5);
 
-    cout<<"bilangan acak do-while yang terakhir"
+    cout<<"bilangan acak do-while yang terakhir ="<<x <<endl;
+    cout<<endl;
+}
+Logika not
+#include <iostream>
+using namespace std;
 
+int main(){
+    float nilB,nilM,rerata;
+    string status;
 
+    cout<<"memasukkan nilai matematika = ";
+    cin>>nilM
+    cout<<"memasukkan nilai bahasa inggris = ";
+    cin>>nilB
 }
