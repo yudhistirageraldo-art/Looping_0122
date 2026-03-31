@@ -1,5 +1,5 @@
 #include <iostream>
-uisng namespace std;
+using namespace std;
 
 // Deklarasi variabel global
 int kodeJurusan;
@@ -44,4 +44,12 @@ void output() {
     cout << "Jurusan Pilihan : " << namaJurusan << endl;
     cout << "Status Kuota    : " << statusKuota << endl;
     cout << "----------------------------------" << endl;
+}
+
+int main() {
+    input();
+    pilihanJurusan();
+    output();
+
+    return 0;
 }
