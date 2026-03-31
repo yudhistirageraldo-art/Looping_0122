@@ -1,4 +1,7 @@
 #include <iostream>
 uisng namespace std;
 
-int
+// Deklarasi variabel global
+int kodeJurusan;
+string namaJurusan;
+string statusKuota;
